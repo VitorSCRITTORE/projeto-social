@@ -17,7 +17,7 @@ html, body{
 }
 
 body{
-    background: url('../imagens/fundo-black-gold1.jpg') no-repeat top center;
+    background: url('../imagens/fundo-body.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -47,7 +47,7 @@ iframe#tela{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 268px;
+    width: 267px;
     height: 471px;
 
 }
@@ -55,17 +55,22 @@ section#redes-sociais{
     text-align: right;
     
 }
+
 section#redes-sociais img{
+    
     width: 50px;
     margin: 10px;
     border-radius: 50%;
+    border: 2px solid white;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.0.400);
     box-sizing: border-box;
 }
 section#redes-sociais img:hover{
-    border: 2px solid white;
+    border: 2px solid greenyellow;
     transform: translate(-3px, -3px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.655) ;
-    transition: transform 0.1s, border 0.3s;
-    
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.62);
+    transition: transform 0.1s, border 0.1s;
+}
+section#redes-sociais img#bt-2:hover{
+    border: 100px solid black;
 }
