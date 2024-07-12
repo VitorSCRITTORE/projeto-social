@@ -16,10 +16,15 @@ html, body{
 
 }
 
+body{
+    background: url('../imagens/fundo-black-gold1.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 main{
     position: relative;
     height: 100vh;
-    background-color: green;
 }
 
 section#telefone{
@@ -31,5 +36,9 @@ section#telefone{
     height: 500px;
     width: 500px;
     background-color: blue;
+
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png');
     
 }
